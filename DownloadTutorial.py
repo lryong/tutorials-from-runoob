@@ -62,34 +62,3 @@ for a in theme:
 	suburl = str(suburl)
 	gettutorial(title,suburl)
 	num += 1
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def deal(url):
-	# html = urllib2.urlopen(url).read()
-	# html.decode('utf-8').encode('gb2312')
-	# print html
-	# for a in html:
-		# print a 
-	# data = etree.HTML(html)
-	# print html
-	# re = data.xpath('//html/body/div[3]/div/div[1]/div[2]/div//a/text()')
-	# for a in re:
-		# print a
-	
-	
-# deal('http://www.runoob.com/html/html-tutorial.html')
