@@ -1,0 +1,2712 @@
+<!Doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta property="qc:admins" content="465267610762567726375" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+	<title>JSON 教程 | 菜鸟教程</title>
+
+  <link rel='dns-prefetch' href='//s.w.org'>
+<link rel="canonical" href="http://www.runoob.com/json/json-tutorial.html" />
+<meta name="keywords" content="JSON 教程,JSON">
+<meta name="description" content="JSON 教程    JSON: JavaScript Object Notation(JavaScript 对象表示法) 	JSON 是存储和交换文本信息的语法。类似 XML。 	JSON 比 XML 更小、更快，更易解析。    JSON 实例  { &#039;employees&#039;: [ { &#039;firstName&#039;:&#039;John&#039; , &#039;lastName&#039;:&#0..">
+		
+	<link rel="shortcut icon" href="http://www.runoob.com/favicon.ico" mce_href="http://www.runoob.com/favicon.ico" type="image/x-icon" >
+	<link rel="stylesheet" href="http://www.runoob.com/wp-content/themes/runoob/style.css?v=1.02" type="text/css" media="all" />	
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/fontawesome/4.2.0/css/font-awesome.min.css" media="all" />	
+  <script src="http://cdn.static.runoob.com/libs/jquery/1.8.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+     <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <![endif]-->
+  <link rel="apple-touch-icon" href="http://static.runoob.com/images/icon/mobile-icon.png"/>
+  <meta name="apple-mobile-web-app-title" content="菜鸟教程">
+</head>
+<body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">JSON 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="JSON 教程"  href="/json/json-tutorial.html" >
+			JSON 教程			</a>
+						<a target="_top" title="JSON 简介"  href="/json/json-intro.html" >
+			JSON 简介			</a>
+						<a target="_top" title="JSON 语法"  href="/json/json-syntax.html" >
+			JSON 语法			</a>
+						<a target="_top" title="JSON 使用"  href="/json/json-eval.html" >
+			JSON 使用			</a>
+						<a target="_top" title="JSONP 教程"  href="/json/json-jsonp.html" >
+			JSONP 教程			</a>
+			<br><h2 class="left"><span class="left_h2">JSON 实例</span></h2>
+<a target="_blank" href="/php/php-json.html">
+	PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">JSON格式化工具</span></h2>
+<a target="_top" href="/jsontool">
+	JSON格式化工具	</a>
+	
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link"> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-eval.html" rel="next"> JSON 使用</a> →</div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>JSON <span class="color_h1">教程</span>
+</h1>
+<hr>
+<br><div class="tutintro">
+<p>JSON: <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation(JavaScript 对象表示法)</p>
+	<p>JSON 是存储和交换文本信息的语法。类似 XML。</p>
+	<p>JSON 比 XML 更小、更快，更易解析。</p>
+</div>
+<div style="clear:both"></div>
+<div class="example">
+<h2 class="example">JSON 实例</h2>
+<div class="example_code notranslate">
+{<br>
+"employees": [<br>
+{ "firstName":"John" , "lastName":"Doe" 
+}, <br>
+{ "firstName":"Anna" , "lastName":"Smith" }, <br>
+{ "firstName":"Peter" , "lastName":"Jones" }<br>
+]<br>
+}<br>
+</div>
+</div>
+<p>这个 employee 对象是包含 3 个员工记录（对象）的数组。</p>
+<hr>
+<h2>什么是 JSON ？</h2>
+<ul>
+<li>JSON 指的是 JavaScript 对象表示法（<b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation）</li>
+<li>JSON 是轻量级的文本数据交换格式</li>
+<li>JSON 独立于语言 <span class="marked">*</span></li>
+<li>JSON 具有自我描述性，更易理解</li>
+</ul>
+
+<table><tr>
+<td valign="_top"><b>*</b></td>
+<td>JSON 使用 Javascript语法来描述数据对象，但是 JSON 仍然独立于语言和平台。JSON 解析器和 JSON 库支持许多不同的编程语言。 
+目前非常多的动态（PHP，JSP，.NET）编程语言都支持JSON。</td>
+</tr></table>
+<hr>
+<h2>JSON - 转换为 JavaScript 对象</h2>
+<p>JSON 文本格式在语法上与创建 JavaScript 对象的代码相同。</p>
+<p>由于这种相似性，无需解析器，JavaScript 程序能够使用内建的 eval() 函数，用 JSON 数据来生成原生的 JavaScript 对象。</p>
+			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link"> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-eval.html" rel="next"> JSON 使用</a> →</div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-map.html" title="jQuery.map()   方法">jQuery.map()   ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-makearray.html" title="jQuery.makeArray()  方法">jQuery.makeArra...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isxmldoc.html" title="jQuery.isXMLDoc()  方法">jQuery.isXMLDoc...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-iswindow.html" title="jQuery.isWindow()  方法">jQuery.isWindow...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isplainobject.html" title="jQuery.isPlainObject()   方法">jQuery.isPlainO...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isnumeric.html" title="jQuery.isNumeric()  方法">jQuery.isNumeri...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isfunction.html" title="jQuery.isFunction()  方法">jQuery.isFuncti...</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">JSON 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="JSON 教程"  href="/json/json-tutorial.html" >
+			JSON 教程			</a>
+						<a target="_top" title="JSON 简介"  href="/json/json-intro.html" >
+			JSON 简介			</a>
+						<a target="_top" title="JSON 语法"  href="/json/json-syntax.html" >
+			JSON 语法			</a>
+						<a target="_top" title="JSON 使用"  href="/json/json-eval.html" >
+			JSON 使用			</a>
+						<a target="_top" title="JSONP 教程"  href="/json/json-jsonp.html" >
+			JSONP 教程			</a>
+			<br><h2 class="left"><span class="left_h2">JSON 实例</span></h2>
+<a target="_blank" href="/php/php-json.html">
+	PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">JSON格式化工具</span></h2>
+<a target="_top" href="/jsontool">
+	JSON格式化工具	</a>
+	
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-syntax.html" rel="prev"> JSON 语法</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-jsonp.html" rel="next"> JSONP 教程</a> →</div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>JSON <span class="color_h1">- 简介</span>
+</h1>
+
+<hr>
+<h2>在线实例</h2>
+<p>通过我们的编辑器，您可以在线编辑 JavaScript 代码，然后通过点击一个按钮来查看结果：</p>
+<div class="example">
+<h2 class="example_head">JSON 实例</h2>
+<div class="example_code notranslate">
+	&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>
+&lt;body&gt;<br>
+&lt;h2&gt;JSON Object Creation in JavaScript&lt;/h2&gt;<p>&lt;p&gt;<br>
+Name: &lt;span id="jname"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+Age: &lt;span id="jage"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+Address: &lt;span id="jstreet"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+Phone: &lt;span id="jphone"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+&lt;/p&gt; </p>
+<p>&lt;script&gt;<br>
+var JSONObject= {<br>
+"name":"John Johnson",<br>
+"street":"Oslo West 555", <br>
+"age":33,<br>
+"phone":"555 1234567"};<br>
+document.getElementById("jname").innerHTML=JSONObject.name <br>
+document.getElementById("jage").innerHTML=JSONObject.age <br>
+document.getElementById("jstreet").innerHTML=JSONObject.street <br>
+document.getElementById("jphone").innerHTML=JSONObject.phone <br>
+&lt;/script&gt;<br><br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</p>
+</div>
+<br><a target="_blank" class="tryitbtn" href="/try/try.php?filename=tryjson_create">尝试一下 »</a>
+<br>
+点击 "尝试一下" 按钮查看在线实例。
+</div>
+<br><hr>
+<h2>与 XML 相同之处</h2>
+
+<ul>
+<li>JSON 是纯文本</li>
+<li>JSON 具有"自我描述性"（人类可读）</li>
+<li>JSON 具有层级结构（值中存在值）</li>
+<li>JSON 可通过 JavaScript 进行解析</li>
+<li>JSON 数据可使用 AJAX 进行传输</li>
+</ul>
+
+<hr>
+<h2>与 XML 不同之处</h2>
+
+<ul>
+<li>没有结束标签</li>
+<li>更短</li>
+<li>读写的速度更快</li>
+<li>能够使用内建的 JavaScript eval() 方法进行解析</li>
+<li>使用数组</li>
+<li>不使用保留字</li>
+</ul>
+
+<hr>
+<h2>为什么使用 JSON？</h2>
+
+<p>对于 AJAX 应用程序来说，JSON 比 XML 更快更易使用：</p>
+
+<h4>使用 XML</h4>
+
+<ul>
+<li>读取 XML 文档</li>
+<li>使用 XML DOM 来循环遍历文档</li>
+<li>读取值并存储在变量中</li>
+</ul>
+
+<h4>使用 JSON</h4>
+
+<ul>
+<li>读取 JSON 字符串</li>
+<li>用 eval() 处理 JSON 字符串</li>
+</ul>
+			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-syntax.html" rel="prev"> JSON 语法</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-jsonp.html" rel="next"> JSONP 教程</a> →</div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-now.html" title="jQuery.now() 方法">jQuery.now() 方法</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-noop.html" title="jQuery.noop()  方法">jQuery.noop()  ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-merge.html" title="jQuery.merge()  方法">jQuery.merge() ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-map.html" title="jQuery.map()   方法">jQuery.map()   ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-makearray.html" title="jQuery.makeArray()  方法">jQuery.makeArra...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isxmldoc.html" title="jQuery.isXMLDoc()  方法">jQuery.isXMLDoc...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-iswindow.html" title="jQuery.isWindow()  方法">jQuery.isWindow...</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">JSON 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="JSON 教程"  href="/json/json-tutorial.html" >
+			JSON 教程			</a>
+						<a target="_top" title="JSON 简介"  href="/json/json-intro.html" >
+			JSON 简介			</a>
+						<a target="_top" title="JSON 语法"  href="/json/json-syntax.html" >
+			JSON 语法			</a>
+						<a target="_top" title="JSON 使用"  href="/json/json-eval.html" >
+			JSON 使用			</a>
+						<a target="_top" title="JSONP 教程"  href="/json/json-jsonp.html" >
+			JSONP 教程			</a>
+			<br><h2 class="left"><span class="left_h2">JSON 实例</span></h2>
+<a target="_blank" href="/php/php-json.html">
+	PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">JSON格式化工具</span></h2>
+<a target="_top" href="/jsontool">
+	JSON格式化工具	</a>
+	
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-eval.html" rel="prev"> JSON 使用</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-intro.html" rel="next"> JSON 简介</a> →</div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>JSON <span class="color_h1">语法</span>
+</h1>
+<hr>
+<p class="intro">JSON 语法是 JavaScript 语法的子集。</p>
+<hr>
+<h2>JSON 语法规则</h2>
+<p>JSON 语法是 JavaScript 对象表示法语法的子集。</p>
+<ul>
+<li>数据在名称/值对中</li>
+<li>数据由逗号分隔</li>
+<li>花括号保存对象</li>
+<li>方括号保存数组</li>
+</ul>
+
+<hr>
+<h2>JSON 名称/值对</h2>
+
+<p>JSON 数据的书写格式是：名称/值对。</p>
+
+<p>名称/值对包括字段名称（在双引号中），后面写一个冒号，然后是值：</p>
+
+
+<div class="code notranslate"><div>
+
+"firstName" : "John"</div></div>
+
+<p>这很容易理解，等价于这条 JavaScript 语句：</p>
+
+<div class="code notranslate"><div>
+firstName = "John"</div></div>
+<br><hr>
+<h2>JSON 值</h2>
+
+<p>JSON 值可以是：</p>
+
+<ul>
+<li>数字（整数或浮点数）</li>
+<li>字符串（在双引号中）</li>
+<li>逻辑值（true 或 false）</li>
+<li>数组（在方括号中）</li>
+<li>对象（在花括号中）</li>
+<li>null</li>
+</ul>
+
+<hr>
+<h2>JSON 对象</h2>
+
+<p>JSON 对象在花括号中书写：</p>
+
+<p>对象可以包含多个名称/值对：</p>
+
+
+<div class="code notranslate"><div>
+
+{ "firstName":"John" , "lastName":"Doe" }
+</div></div>
+
+<p>这一点也容易理解，与这条 JavaScript 语句等价：</p>
+
+<div class="code notranslate"><div>
+
+firstName = "John"<br>
+lastName = "Doe"</div></div>
+<br><hr>
+<h2>JSON 数组</h2>
+
+<p>JSON 数组在方括号中书写：</p>
+
+<p>数组可包含多个对象：</p>
+
+<div class="code notranslate"><div>
+
+{<br>
+"employees": [<br>
+{ "firstName":"John" , "lastName":"Doe" 
+}, <br>
+{ "firstName":"Anna" , "lastName":"Smith" }, <br>
+{ "firstName":"Peter" , "lastName":"Jones" }<br>
+]<br>
+}</div></div>
+
+<p>在上面的例子中，对象 &quot;employees&quot; 是包含三个对象的数组。每个对象代表一条关于某人（有姓和名）的记录。</p>
+
+<hr>
+<h2>JSON 使用 JavaScript 语法</h2>
+
+<p>因为 JSON 使用 JavaScript 语法，所以无需额外的软件就能处理 JavaScript 中的 JSON。</p>
+
+<p>通过 JavaScript，您可以创建一个对象数组，并像这样进行赋值：</p>
+
+<div class="example">
+<h2 class="example">实例</h2>
+<div class="example_code notranslate">
+
+var employees =
+[<br>
+{ "firstName":"John" , "lastName":"Doe" }, <br>
+{ "firstName":"Anna" , "lastName":"Smith" }, <br>
+{ "firstName":"Peter" , "lastName": "Jones" }<br>
+];</div>
+
+<p>可以像这样访问 JavaScript 对象数组中的第一项：</p>
+
+<div class="example_code notranslate">
+
+employees[0].lastName;</div>
+
+<p>返回的内容是：</p>
+
+<div class="example_code notranslate">
+
+Doe</div>
+
+<p>可以像这样修改数据：</p>
+
+<div class="example_code notranslate">
+
+employees[0].firstName = "Jonatan";</div>
+
+<br><a target="_blank" class="tryitbtn" href="/try/try.php?filename=tryjson_objectarray">尝试一下 »</a>
+</div>
+
+
+ <p>在下面的章节，您将学到如何把 JSON 文本转换为 JavaScript 对象。<br/></p>
+
+<hr>
+<h2>JSON 文件</h2>
+
+<ul>
+<li>JSON 文件的文件类型是 &quot;.json&quot;</li>
+<li>JSON 文本的 MIME 类型是 &quot;application/json&quot;</li>
+</ul>			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-eval.html" rel="prev"> JSON 使用</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-intro.html" rel="next"> JSON 简介</a> →</div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-map.html" title="jQuery.map()   方法">jQuery.map()   ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-makearray.html" title="jQuery.makeArray()  方法">jQuery.makeArra...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isxmldoc.html" title="jQuery.isXMLDoc()  方法">jQuery.isXMLDoc...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-iswindow.html" title="jQuery.isWindow()  方法">jQuery.isWindow...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isplainobject.html" title="jQuery.isPlainObject()   方法">jQuery.isPlainO...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isnumeric.html" title="jQuery.isNumeric()  方法">jQuery.isNumeri...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isfunction.html" title="jQuery.isFunction()  方法">jQuery.isFuncti...</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">JSON 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="JSON 教程"  href="/json/json-tutorial.html" >
+			JSON 教程			</a>
+						<a target="_top" title="JSON 简介"  href="/json/json-intro.html" >
+			JSON 简介			</a>
+						<a target="_top" title="JSON 语法"  href="/json/json-syntax.html" >
+			JSON 语法			</a>
+						<a target="_top" title="JSON 使用"  href="/json/json-eval.html" >
+			JSON 使用			</a>
+						<a target="_top" title="JSONP 教程"  href="/json/json-jsonp.html" >
+			JSONP 教程			</a>
+			<br><h2 class="left"><span class="left_h2">JSON 实例</span></h2>
+<a target="_blank" href="/php/php-json.html">
+	PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">JSON格式化工具</span></h2>
+<a target="_top" href="/jsontool">
+	JSON格式化工具	</a>
+	
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-tutorial.html" rel="prev"> JSON 教程</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-syntax.html" rel="next"> JSON 语法</a> →</div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>JSON <span class="color_h1">使用</span>
+</h1>
+<hr>
+<h2>把 JSON 文本转换为 JavaScript 对象</h2>
+
+<p>JSON 最常见的用法之一，是从 web 服务器上读取 JSON 数据（作为文件或作为 HttpRequest），将 JSON 数据转换为 JavaScript 对象，然后在网页中使用该数据。</p>
+
+<p>为了更简单地为您讲解，我们使用字符串作为输入进行演示（而不是文件）。</p>
+
+<hr>
+<h2>JSON 实例 - 来自字符串的对象</h2>
+<p>创建包含 JSON 语法的 JavaScript 字符串：</p>
+<div class="code notranslate"><div>
+
+var txt = '{ "employees" : [' +<br>
+'{ "firstName":"John" , "lastName":"Doe" },' +<br>
+'{ "firstName":"Anna" , "lastName":"Smith" },' +<br>
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';</div></div>
+
+<p>由于 JSON 语法是 JavaScript 语法的子集，JavaScript 函数 eval() 可用于将 JSON 文本转换为 JavaScript 对象。</p>
+
+<p>eval() 函数使用的是 JavaScript 编译器，可解析 JSON 文本，然后生成 JavaScript 对象。必须把文本包围在括号中，这样才能避免语法错误：</p>
+
+<div class="code notranslate"><div>
+
+var obj = eval ("(" + txt + ")");
+</div></div>
+
+
+<p>在网页中使用 JavaScript 对象：</p>
+<div class="example">
+<h2 class="example">实例</h2>
+<div class="example_code notranslate">
+
+&lt;p&gt;<br>
+First Name: &lt;span id="fname"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+Last Name: &lt;span id="lname"&gt;&lt;/span&gt;&lt;br /&gt; <br>
+&lt;/p&gt; <br><br>
+&lt;script&gt;<br>
+document.getElementById("fname").innerHTML = obj.employees[1].firstName <br>
+document.getElementById("lname").innerHTML = obj.employees[1].lastName <br>
+&lt;/script&gt;</div>
+<br><a target="_blank" class="tryitbtn" href="/try/try.php?filename=tryjson_eval">尝试一下 »</a>
+</div>
+<hr>
+<h2>JSON 解析器</h2>
+<p><img border="0" src="/images/lamp2.gif" alt="lamp">  eval() 函数可编译并执行任何 JavaScript 代码。这隐藏了一个潜在的安全问题。</p>
+<p>使用 JSON 解析器将 JSON 转换为 JavaScript 对象是更安全的做法。JSON 解析器只能识别 JSON 文本，而不会编译脚本。 </p>
+<p>在浏览器中，这提供了原生的 JSON 支持，而且 JSON 解析器的速度更快。</p>
+<p>较新的浏览器和最新的 ECMAScript (JavaScript) 标准中均包含了原生的对 JSON 的支持。</p>
+<table class="reference notranslate">
+<tr>
+<th width="50%">Web 浏览器支持</th>
+<th>Web 软件支持</th>
+</tr>
+<tr>
+<td align="top"><ul type="square">
+<li>Firefox (Mozilla) 3.5</li>
+	<li>Internet Explorer 8</li>
+	<li>Chrome</li>
+	<li>Opera 10</li>
+	<li>Safari 4<br>
+</li>
+</ul></td>
+<td align="top"><ul type="square">
+<li>jQuery</li>
+	<li>Yahoo UI</li>
+	<li>Prototype</li>
+	<li>Dojo</li>
+	<li>ECMAScript 1.5<br>
+</li>
+</ul></td>
+</tr>
+</table>
+<p><a target="_blank" class="tryitbtn" href="/try/try.php?filename=tryjson_parse">尝试一下 »</a></p>
+<p>对于较老的浏览器，可使用 JavaScript 库：
+<a target="_blank" href="https://github.com/douglascrockford/JSON-js">
+https://github.com/douglascrockford/JSON-js</a></p>
+<p>JSON 格式最初是
+<a target="_blank" href="http://developer.yahoo.com/yui/theater/video.php?v=crockford-json">
+originally specified by Douglas Crockford</a> </p>			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-tutorial.html" rel="prev"> JSON 教程</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/json/json-syntax.html" rel="next"> JSON 语法</a> →</div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-now.html" title="jQuery.now() 方法">jQuery.now() 方法</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-noop.html" title="jQuery.noop()  方法">jQuery.noop()  ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-merge.html" title="jQuery.merge()  方法">jQuery.merge() ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-map.html" title="jQuery.map()   方法">jQuery.map()   ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-makearray.html" title="jQuery.makeArray()  方法">jQuery.makeArra...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isxmldoc.html" title="jQuery.isXMLDoc()  方法">jQuery.isXMLDoc...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-iswindow.html" title="jQuery.isWindow()  方法">jQuery.isWindow...</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">JSON 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="JSON 教程"  href="/json/json-tutorial.html" >
+			JSON 教程			</a>
+						<a target="_top" title="JSON 简介"  href="/json/json-intro.html" >
+			JSON 简介			</a>
+						<a target="_top" title="JSON 语法"  href="/json/json-syntax.html" >
+			JSON 语法			</a>
+						<a target="_top" title="JSON 使用"  href="/json/json-eval.html" >
+			JSON 使用			</a>
+						<a target="_top" title="JSONP 教程"  href="/json/json-jsonp.html" >
+			JSONP 教程			</a>
+			<br><h2 class="left"><span class="left_h2">JSON 实例</span></h2>
+<a target="_blank" href="/php/php-json.html">
+	PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">JSON格式化工具</span></h2>
+<a target="_top" href="/jsontool">
+	JSON格式化工具	</a>
+	
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-intro.html" rel="prev"> JSON 简介</a> </div>
+			<div class="next-design-link"></div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>JSONP 教程</h1>
+<p>本章节我们将向大家介绍 JSONP 的知识。</p>
+<p>Jsonp(JSON with Padding) 是 json 的一种"使用模式"，可以让网页从别的域名（网站）那获取资料，即跨域读取数据。</p>
+<p>
+为什么我们从不同的域（网站）访问数据需要一个特殊的技术(JSONP )呢？这是因为同源策略。
+</p><p>同源策略，它是由Netscape提出的一个著名的安全策略，现在所有支持JavaScript 的浏览器都会使用这个策略。</p>
+
+<hr>
+<h2>JSONP 应用</h2>
+<h3>1. 服务端JSONP格式数据</h3>
+<p>如客户想访问 : http://www.runoob.com/try/ajax/jsonp.php?jsonp=callbackFunction。</p>
+<p>假设客户期望返回JSON数据：["customername1","customername2"]。</p>
+<p>真正返回到客户端的数据显示为: callbackFunction(["customername1","customername2"])。</p>
+<p>服务端文件jsonp.php代码为：</p>
+<pre>
+&lt;?php
+header('Content-type: application/json');
+//获取回调函数名
+$jsoncallback = htmlspecialchars($_REQUEST ['jsoncallback']);
+//json数据
+$json_data = '["customername1","customername2"]';
+//输出jsonp格式的数据
+echo $jsoncallback . "(" . $json_data . ")";
+?&gt;
+</pre>
+<h3>2. 客户端实现 callbackFunction 函数</h3>
+<pre>
+&lt;script type="text/javascript"&gt;
+function callbackFunction(result, methodName)
+{
+    var html = '&lt;ul&gt;';
+    for(var i = 0; i &lt; result.length; i++)
+    {
+        html += '&lt;li&gt;' + result[i] + '&lt;/li&gt;';
+    }
+    html += '&lt;/ul&gt;';
+    document.getElementById('divCustomers').innerHTML = html;
+}
+&lt;/script&gt;
+</pre>
+<h3>页面展示</h3>
+<pre>
+&lt;div id="divCustomers"&gt;&lt;/div&gt;
+</pre>
+<h3>客户端页面完整代码</h3>
+<pre>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" &gt;
+&lt;head&gt;
+    &lt;title&gt;JSONP 实例&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="divCustomers"&gt;&lt;/div&gt;
+    &lt;script type="text/javascript"&gt;
+        function callbackFunction(result, methodName)
+        {
+            var html = '&lt;ul&gt;';
+            for(var i = 0; i &lt; result.length; i++)
+            {
+                html += '&lt;li&gt;' + result[i] + '&lt;/li&gt;';
+            }
+            html += '&lt;/ul&gt;';
+            document.getElementById('divCustomers').innerHTML = html;
+        }
+    &lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.runoob.com/try/ajax/jsonp.php?jsoncallback=callbackFunction"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<hr>
+<h2>jQuery 使用 JSONP</h2>
+<p>以上代码可以使用 jQuery 代码实例：</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;JSONP 实例&lt;/title&gt;
+	&lt;script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.js"&gt;&lt;/script&gt;	
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="divCustomers"&gt;&lt;/div&gt;
+&lt;script&gt;
+$.getJSON("http://www.runoob.com/try/ajax/jsonp.php?jsoncallback=?", function(data) {
+	
+	var html = '&lt;ul&gt;';
+	for(var i = 0; i &lt; data.length; i++)
+	{
+		html += '&lt;li&gt;' + data[i] + '&lt;/li&gt;';
+	}
+	html += '&lt;/ul&gt;';
+	
+	$('#divCustomers').html(html); 
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt; 
+</pre>			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/json/json-intro.html" rel="prev"> JSON 简介</a> </div>
+			<div class="next-design-link"></div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-unique.html" title="jQuery.unique()  方法">jQuery.unique()...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-type.html" title="jQuery.type()   方法">jQuery.type()  ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-trim.html" title="jQuery.trim()  方法">jQuery.trim()  ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-parsexml.html" title="jQuery.parseXML()  方法">jQuery.parseXML...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-parsejson.html" title="jQuery.parseJSON()  方法">jQuery.parseJSO...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-parsehtml.html" title="jQuery.parseHTML()  方法">jQuery.parseHTM...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-now.html" title="jQuery.now() 方法">jQuery.now() 方法</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+<!--  头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="index.php">
+      <input class="placeholder" value="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+        <div class="col right-list"> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style=""> <i class="fa fa-navicon"></i> </button>
+    </div>
+        <div class="col search search-desktop last">
+      <form action="http://www.runoob.com/" target="_blank">
+        <input class="placeholder" id="s" name="s" value="搜索……"  autocomplete="off">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 导航栏 -->
+<!-- 导航栏 -->
+<div class="container navigation">
+	<div class="row">
+		<div class="col nav">
+			<ul class="pc-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<li><a href="/jquery/jquery-tutorial.html">jQuery</a></li>
+				<li><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap</a></li>
+				<li><a href="/sql/sql-tutorial.html">SQL</a></li>
+				<li><a href="/mysql/mysql-tutorial.html">MySQL</a></li>
+				<li><a href="/php/php-tutorial.html">PHP</a></li>
+				<li><a href="/python/python-tutorial.html">Python</a></li>
+				<li><a href="/cprogramming/c-tutorial.html">C</a></li>
+				<li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+				<li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+				<li><a href="/java/java-tutorial.html">Java</a></li>
+				<li><a href="/ruby/ruby-tutorial.html">Ruby</a></li>
+				
+				<li><a href="/sitemap">更多……</a></li>
+      		</ul>
+			<ul class="mobile-nav">
+				<li><a href="http://www.runoob.com/">首页</a></li>
+				<li><a href="/html/html-tutorial.html">HTML</a></li>
+				<li><a href="/css/css-tutorial.html">CSS</a></li>
+				<li><a href="/js/js-tutorial.html">JavaScript</a></li>
+				<a href="javascript:void(0)" class="search-reveal">Search</a> 
+			</ul>
+			
+		</div>
+	</div>
+</div><!--  内容  -->
+<div class="container main">
+	<!-- 中间 -->
+	<div class="row">
+	
+<div class="col left-column">
+	<div class="tab">PHP 教程</div>
+	<div class="sidebar-box gallery-list">
+		<div class="design" id="leftcolumn">
+						<a target="_top" title="PHP 教程"  href="/php/php-tutorial.html" >
+			PHP 教程			</a>
+						<a target="_top" title="PHP 简介"  href="/php/php-intro.html" >
+			PHP 简介			</a>
+						<a target="_top" title="PHP 安装"  href="/php/php-install.html" >
+			PHP 安装			</a>
+						<a target="_top" title="PHP 语法"  href="/php/php-syntax.html" >
+			PHP 语法			</a>
+						<a target="_top" title="PHP 变量"  href="/php/php-variables.html" >
+			PHP 变量			</a>
+			<a target="_top" title="PHP  echo/print 语句" href="/php/php-echo-print.html"> PHP  echo/print </a>
+<a target="_top" title="PHP  数据类型" href="/php/php-datatypes.html"> PHP  数据类型 </a>
+<a target="_top" title="PHP  常量" href="/php/php-constants.html"> PHP  常量 </a>			<a target="_top" title="PHP 字符串变量"  href="/php/php-string.html" >
+			PHP 字符串			</a>
+						<a target="_top" title="PHP 运算符"  href="/php/php-operators.html" >
+			PHP 运算符			</a>
+						<a target="_top" title="PHP If&#8230;Else 语句"  href="/php/php-if-else.html" >
+			PHP If...Else			</a>
+						<a target="_top" title="PHP Switch 语句"  href="/php/php-switch.html" >
+			PHP Switch			</a>
+						<a target="_top" title="PHP 数组"  href="/php/php-arrays.html" >
+			PHP 数组			</a>
+						<a target="_top" title="PHP 数组排序"  href="/php/php-arrays-sort.html" >
+			PHP 数组排序			</a>
+			<a target="_top" href="/php/php-superglobals.html">
+	PHP 超级全局变量	</a>			<a target="_top" title="PHP While 循环"  href="/php/php-looping.html" >
+			PHP While 循环			</a>
+						<a target="_top" title="PHP For 循环"  href="/php/php-looping-for.html" >
+			PHP For 循环			</a>
+						<a target="_top" title="PHP 函数"  href="/php/php-functions.html" >
+			PHP 函数			</a>
+			<a target="_top" href="http://www.runoob.com/php/php-magic-constant.html">
+	PHP 魔术变量	</a>
+<a target="_top" href="php-namespace.html">
+	PHP 命名空间</a>
+<a target="_top" href="php-oop.html">
+	PHP 面向对象</a>
+<br><h2 class="left"><span class="left_h2">PHP</span> 表单</h2>			<a target="_top" title="PHP 表单"  href="/php/php-forms.html" >
+			PHP 表单			</a>
+			<a target="_top" href="/php/php-form-validation.html">PHP 表单验证</a>
+<a target="_top" href="/php/php-form-required.html">PHP 表单 - 必需字段</a>
+<a target="_top" href="/php/php-form-url-email.html">PHP 表单 - 验证邮件和URL</a>
+<a target="_top" href="/php/php-form-complete.html">PHP 完整表单实例</a>			<a target="_top" title="PHP $_GET 变量"  href="/php/php-get.html" >
+			PHP $_GET 变量			</a>
+						<a target="_top" title="PHP $_POST 变量"  href="/php/php-post.html" >
+			PHP $_POST 变量			</a>
+			<br><h2 class="left"><span class="left_h2">PHP</span> 高级教程</h2>			<a target="_top" title="PHP 多维数组"  href="/php/php-arrays-multi.html" >
+			PHP 多维数组			</a>
+						<a target="_top" title="PHP date() 函数"  href="/php/php-date.html" >
+			PHP 日期			</a>
+						<a target="_top" title="PHP include 和 require"  href="/php/php-includes.html" >
+			PHP 包含			</a>
+						<a target="_top" title="PHP 文件"  href="/php/php-file.html" >
+			PHP 文件			</a>
+						<a target="_top" title="PHP 文件上传"  href="/php/php-file-upload.html" >
+			PHP 文件上传			</a>
+						<a target="_top" title="PHP Cookie"  href="/php/php-cookies.html" >
+			PHP Cookie			</a>
+						<a target="_top" title="PHP Session"  href="/php/php-sessions.html" >
+			PHP Session			</a>
+						<a target="_top" title="PHP 邮件"  href="/php/php-mail.html" >
+			PHP E-mail			</a>
+						<a target="_top" title="PHP 安全 E-mail"  href="/php/php-secure-mail.html" >
+			PHP 安全 E-mail			</a>
+						<a target="_top" title="PHP 错误处理"  href="/php/php-error.html" >
+			PHP Error			</a>
+						<a target="_top" title="PHP 异常处理"  href="/php/php-exception.html" >
+			PHP Exception			</a>
+						<a target="_top" title="PHP 过滤器"  href="/php/php-filter.html" >
+			PHP 过滤器			</a>
+			<a target="_top" href="/php/php-filter-advanced.html">PHP 高级过滤器</a>
+<a target="_top" href="/php/php-json.html">PHP JSON</a>
+<br><h2 class="left"><span class="left_h2">PHP 7</span> 新特性</h2>
+<a target="_top" href="/php/php7-new-features.html">PHP 7 新特性</a>
+<br><h2 class="left"><span class="left_h2">PHP</span> 数据库</h2>			<a target="_top" title="PHP MySQL 简介"  href="/php/php-mysql-intro.html" >
+			PHP MySQL 简介			</a>
+						<a target="_top" title="PHP 连接 MySQL"  href="/php/php-mysql-connect.html" >
+			PHP MySQL 连接 			</a>
+						<a target="_top" title="PHP MySQL 创建数据库"  href="/php/php-mysql-create.html" >
+			PHP MySQL 创建数据库			</a>
+			<a target="_top" title="PHP MySQL 创建数据表" href="php-mysql-create-table.html"> PHP MySQL 创建数据表 </a>			<a target="_top" title="PHP MySQL 插入数据"  href="/php/php-mysql-insert.html" >
+			PHP MySQL 插入数据			</a>
+			<a target="_top" title="PHP MySQL 插入多条数据" href="php-mysql-insert-multiple.html"> PHP MySQL 插入多条数据 </a>
+<a target="_top" title="PHP MySQL  预处理语句" href="php-mysql-prepared-statements.html"> PHP MySQL 预处理语句 </a>			<a target="_top" title="PHP MySQL 读取数据"  href="/php/php-mysql-select.html" >
+			PHP MySQL 读取数据			</a>
+						<a target="_top" title="PHP MySQL Where 子句"  href="/php/php-mysql-where.html" >
+			PHP MySQL Where			</a>
+						<a target="_top" title="PHP MySQL Order By 关键词"  href="/php/php-mysql-order-by.html" >
+			PHP MySQL Order By			</a>
+						<a target="_top" title="PHP MySQL Update"  href="/php/php-mysql-update.html" >
+			PHP MySQL Update			</a>
+						<a target="_top" title="PHP MySQL Delete"  href="/php/php-mysql-delete.html" >
+			PHP MySQL Delete			</a>
+						<a target="_top" title="PHP 数据库 ODBC"  href="/php/php-db-odbc.html" >
+			PHP ODBC			</a>
+			<br><h2 class="left"><span class="left_h2">PHP</span> XML</h2>			<a target="_top" title="PHP XML Expat 解析器"  href="/php/php-xml-parser-expat.html" >
+			XML Expat Parser			</a>
+						<a target="_top" title="PHP XML DOM"  href="/php/php-xml-dom.html" >
+			XML DOM			</a>
+						<a target="_top" title="PHP XML SimpleXML"  href="/php/php-xml-simplexml.html" >
+			XML SimpleXML			</a>
+			<br><h2 class="left"><span class="left_h2">PHP</span> 与 AJAX</h2>			<a target="_top" title="AJAX 简介"  href="/php/php-ajax-intro.html" >
+			AJAX 简介			</a>
+						<a target="_top" title="PHP &#8211; AJAX 与 PHP"  href="/php/php-ajax-php.html" >
+			AJAX PHP			</a>
+						<a target="_top" title="PHP 实例 AJAX 与 MySQL"  href="/php/php-ajax-database.html" >
+			AJAX 数据库			</a>
+						<a target="_top" title="PHP 实例 AJAX 与 XML"  href="/php/php-ajax-xml.html" >
+			AJAX XML			</a>
+						<a target="_top" title="PHP 实例 AJAX 实时搜索"  href="/php/php-ajax-livesearch.html" >
+			AJAX  实时搜索			</a>
+						<a target="_top" title="PHP 实例 AJAX RSS 阅读器"  href="/php/php-ajax-rss-reader.html" >
+			AJAX RSS Reader			</a>
+						<a target="_top" title="PHP 实例 AJAX 投票"  href="/php/php-ajax-poll.html" >
+			AJAX 投票			</a>
+			<br><h2 class="left"><span class="left_h2">PHP</span> 参考手册</h2>			<a target="_top" title="PHP 5 Array 函数"  href="/php/php-ref-array.html" >
+			PHP Array			</a>
+						<a target="_top" title="PHP 5 Calendar 函数"  href="/php/php-ref-calendar.html" >
+			PHP Calendar			</a>
+			<a target="_top" href="/php/php-ref-curl.html">PHP cURL </a>			<a target="_top" title="PHP 5 Date/Time 函数"  href="/php/php-ref-date.html" >
+			PHP Date			</a>
+						<a target="_top" title="PHP 5 Directory 函数"  href="/php/php-ref-directory.html" >
+			PHP Directory			</a>
+						<a target="_top" title="PHP Error 和 Logging 函数"  href="/php/php-ref-error.html" >
+			PHP Error			</a>
+						<a target="_top" title="PHP 5 Filesystem 函数"  href="/php/php-ref-filesystem.html" >
+			PHP Filesystem			</a>
+						<a target="_top" title="PHP Filter 函数"  href="/php/php-ref-filter.html" >
+			PHP Filter			</a>
+						<a target="_top" title="PHP FTP 函数"  href="/php/php-ref-ftp.html" >
+			PHP FTP			</a>
+						<a target="_top" title="PHP HTTP 函数"  href="/php/php-ref-http.html" >
+			PHP HTTP			</a>
+						<a target="_top" title="PHP Libxml 函数"  href="/php/php-ref-libxml.html" >
+			PHP Libxml			</a>
+						<a target="_top" title="PHP Mail 函数"  href="/php/php-ref-mail.html" >
+			PHP Mail			</a>
+						<a target="_top" title="PHP 5 Math 函数"  href="/php/php-ref-math.html" >
+			PHP Math			</a>
+						<a target="_top" title="PHP Misc. 函数"  href="/php/php-ref-misc.html" >
+			PHP Misc			</a>
+						<a target="_top" title="PHP 5 MySQLi 函数"  href="/php/php-ref-mysqli.html" >
+			PHP MySQLi			</a>
+			<a target="_top" title="PHP PDO" href="php-pdo.html"> PHP PDO </a>			<a target="_top" title="PHP 5 SimpleXML 函数"  href="/php/php-ref-simplexml.html" >
+			PHP SimpleXML			</a>
+						<a target="_top" title="PHP 5 String 函数"  href="/php/php-ref-string.html" >
+			PHP String			</a>
+						<a target="_top" title="PHP XML 函数"  href="/php/php-ref-xml.html" >
+			PHP XML			</a>
+						<a target="_top" title="PHP Zip File 函数"  href="/php/php-ref-zip.html" >
+			PHP Zip			</a>
+						<a target="_top" title="PHP 5 Timezones"  href="/php/php-ref-timezones.html" >
+			PHP Timezones			</a>
+						<a target="_top" title="PHP 图像处理"  href="/php/php-image-gd.html" >
+			PHP 图像处理			</a>
+						<a target="_top" title="PHP RESTful"  href="/php/php-restful.html" >
+			PHP RESTful			</a>
+				
+		</div>
+	</div>	
+</div>	<div class="col middle-column">
+		
+	
+	<div class="article">
+			<div class="article-heading-ad">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 移动版 自动调整 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+		     data-ad-client="ca-pub-5751451760833794"
+		     data-ad-slot="1691338467"
+		     data-ad-format="horizontal"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/php/php-constants.html" rel="prev"> PHP 5 常量</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/php/php-mysql-insert-multiple.html" rel="next"> PHP MySQL 插入多条数据</a> →</div>
+		</div>
+		<div class="article-body">
+		
+			<div class="article-intro" id="content">
+			
+			<h1>PHP JSON</h1>
+<p>本章节我们将为大家介绍如何使用 PHP 语言来编码和解码 JSON 对象。</p>
+<hr>
+<h2>环境配置</h2>
+<p>在 php5.2.0 及以上版本已经内置 JSON 扩展。</p>
+<hr>
+<h2>JSON 函数</h2>
+<table class="reference">
+<tbody><tr><th style="width:20%">函数</th><th>描述</th></tr>
+<tr><td>json_encode </td><td>对变量进行 JSON 编码</td></tr>
+<tr><td>json_decode</td><td>对 JSON 格式的字符串进行解码，转换为 PHP 变量 </td></tr>
+<tr><td>json_last_error</td><td> 返回最后发生的错误</td></tr>
+</tbody></table>
+<hr>
+<h2>
+json_encode</h2>
+<p>PHP json_encode() 用于对变量进行 JSON 编码，该函数如果执行成功返回 JSON  数据，否则返回 FALSE 。</p>
+<h3>语法</h3>
+<pre>string json_encode ( $value [, $options = 0 ] )</pre>
+<h3>参数</h3>
+<ul>
+<li><b>value</b>: 要编码的值。该函数只对 UTF-8 编码的数据有效。</li>
+<li><b>options</b>:由以下常量组成的二进制掩码：JSON_HEX_QUOT, JSON_HEX_TAG, JSON_HEX_AMP, JSON_HEX_APOS, JSON_NUMERIC_CHECK,JSON_PRETTY_PRINT, JSON_UNESCAPED_SLASHES, JSON_FORCE_OBJECT</li>
+</ul>
+
+<h3>实例</h3>
+<p>以下实例演示了如何将 PHP 数组转换为 JSON 格式数据：</p>
+<pre>
+&lt;?php
+   $arr = array('a' =&gt; 1, 'b' =&gt; 2, 'c' =&gt; 3, 'd' =&gt; 4, 'e' =&gt; 5);
+   echo json_encode($arr);
+?&gt;
+</pre>
+<p>以上代码执行结果为：</p>
+<pre>
+{"a":1,"b":2,"c":3,"d":4,"e":5}
+</pre>
+<p>以下实例演示了如何将 PHP 对象转换为 JSON 格式数据：</p>
+<pre>
+&lt;?php
+   class Emp {
+       public $name = "";
+       public $hobbies  = "";
+       public $birthdate = "";
+   }
+   $e = new Emp();
+   $e-&gt;name = "sachin";
+   $e-&gt;hobbies  = "sports";
+   $e-&gt;birthdate = date('m/d/Y h:i:s a', "8/5/1974 12:20:03 p");
+   $e-&gt;birthdate = date('m/d/Y h:i:s a', strtotime("8/5/1974 12:20:03"));
+
+   echo json_encode($e);
+?&gt;
+</pre>
+<p>以上代码执行结果为：</p>
+<pre>
+{"name":"sachin","hobbies":"sports","birthdate":"08\/05\/1974 12:20:03 pm"}
+</pre>
+<hr>
+<h2>json_decode</h2>
+<p>PHP json_decode() 函数用于对 JSON 格式的字符串进行解码，并转换为 PHP 变量。</p>
+<h3>语法</h3>
+<pre>
+mixed json_decode ($json [,$assoc = false [, $depth = 512 [, $options = 0 ]]])
+</pre>
+<h3>参数</h3>
+<ul>
+<li><p><b>json_string</b>: 待解码的 JSON 字符串，必须是 UTF-8 编码数据</p></li>
+<li><p><b>assoc</b>: 当该参数为 TRUE 时，将返回数组，FALSE 时返回对象。</p></li>
+<li><p><b>depth</b>: 整数类型的参数，它指定递归深度</p></li>
+<li><p><b>options</b>: 二进制掩码，目前只支持 JSON_BIGINT_AS_STRING 。</p></li>
+</ul>
+<h3>实例</h3>
+<p>以下实例演示了如何解码 JSON 数据：</p>
+<pre>
+&lt;?php
+   $json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
+
+   var_dump(json_decode($json));
+   var_dump(json_decode($json, true));
+?&gt;
+</pre>
+<p>以上代码执行结果为：</p>
+<pre>
+object(stdClass)#1 (5) {
+    ["a"] =&gt; int(1)
+    ["b"] =&gt; int(2)
+    ["c"] =&gt; int(3)
+    ["d"] =&gt; int(4)
+    ["e"] =&gt; int(5)
+}
+
+array(5) {
+    ["a"] =&gt; int(1)
+    ["b"] =&gt; int(2)
+    ["c"] =&gt; int(3)
+    ["d"] =&gt; int(4)
+    ["e"] =&gt; int(5)
+}
+</pre>			
+			
+			</div>
+		</div>
+		
+		<div class="previous-next-links">
+			<div class="previous-design-link">← <a href="http://www.runoob.com/php/php-constants.html" rel="prev"> PHP 5 常量</a> </div>
+			<div class="next-design-link"><a href="http://www.runoob.com/php/php-mysql-insert-multiple.html" rel="next"> PHP MySQL 插入多条数据</a> →</div>
+		</div>
+		
+		<div class="sidebar-box ad-box ad-box-large">
+		<div class="ad-336280">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 移动版 自动调整 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;min-width:200px;max-width:360px;width:100%;height:100%px"
+			     data-ad-client="ca-pub-5751451760833794"
+			     data-ad-slot="1691338467"
+			     data-ad-format="rectangle"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+<!-- 右边栏 -->
+<div class="fivecol last right-column">
+	<div class="tab tab-light-blue" style="text-align: center;">关注微信</div>
+	<div class="sidebar-box">
+		<a href="http://m.runoob.com/" target="_blank"> <img src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" alt="移动版"> </a>
+		<div class="qqinfo">
+		<!-- <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=dOwwKN" id="qqhref">
+		<img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="菜鸟家族" title="菜鸟家族"></a>
+		<span>(群号：<span id="qqid">365967760</span>)</span>-->
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="tab tab-light-blue">分类导航</div>
+	<div class="sidebar-box sidebar-cate">
+		
+		<div class="sidebar-tree" >
+			<ul><li><a href="javascript:void(0);" class="tit">HTML / CSS</a><ul><li><a title="HTML 教程" href="http://www.runoob.com/html/html-tutorial.html">HTML 教程</a></li><li><a title="HTML5 教程" href="http://www.runoob.com/html/html5-intro.html">HTML5 教程</a></li><li><a title="CSS 教程" href="http://www.runoob.com/css/css-tutorial.html">CSS 教程</a></li><li><a title="CSS3 教程" href="http://www.runoob.com/css3/css3-tutorial.html">CSS3 教程</a></li><li><a title="Bootstrap 教程" href="http://www.runoob.com/bootstrap/bootstrap-tutorial.html">Bootstrap 教程</a></li><li><a title="Foundation 教程" href="http://www.runoob.com/foundation/foundation-tutorial.html">Foundation 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">JavaScript</a><ul><li><a title="JavaScript 教程" href="http://www.runoob.com/js/js-tutorial.html">JavaScript 教程</a></li><li><a title="HTML DOM 教程" href="http://www.runoob.com/htmldom/htmldom-tutorial.html">HTML DOM 教程</a></li><li><a title="jQuery 教程" href="http://www.runoob.com/jquery/jquery-tutorial.html">jQuery 教程</a></li><li><a title="AngularJS 教程" href="http://www.runoob.com/angularjs/angularjs-tutorial.html">AngularJS 教程</a></li><li><a title="React 教程" href="http://www.runoob.com/react/react-tutorial.html">React 教程</a></li><li><a title="jQuery UI 教程" href="http://www.runoob.com/jqueryui/jqueryui-tutorial.html">jQuery UI 教程</a></li><li><a title="jQuery EasyUI 教程" href="http://www.runoob.com/jeasyui/jqueryeasyui-tutorial.html">jQuery EasyUI 教程</a></li><li><a title="Node.js 教程" href="http://www.runoob.com/nodejs/nodejs-tutorial.html">Node.js 教程</a></li><li><a title="AJAX 教程" href="http://www.runoob.com/ajax/ajax-tutorial.html">AJAX 教程</a></li><li><a title="JSON 教程" href="http://www.runoob.com/json/json-tutorial.html">JSON 教程</a></li><li><a title="Highcharts 教程" href="http://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li><li><a title="Google 地图 教程" href="http://www.runoob.com/googleapi/google-maps-basic.html">Google 地图 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">服务端</a><ul><li><a title="PHP 教程" href="http://www.runoob.com/php/php-tutorial.html">PHP 教程</a></li><li><a title="Python 教程" href="http://www.runoob.com/python/python-tutorial.html">Python 教程</a></li><li><a title="Python3 教程" href="http://www.runoob.com/python3/python3-tutorial.html">Python3 教程</a></li><li><a title="Django 教程" href="http://www.runoob.com/django/django-tutorial.html">Django 教程</a></li><li><a title="Linux 教程" href="http://www.runoob.com/linux/linux-tutorial.html">Linux 教程</a></li><li><a title="Docker 教程" href="http://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a title="Ruby 教程" href="http://www.runoob.com/ruby/ruby-tutorial.html">Ruby 教程</a></li><li><a title="Java 教程" href="http://www.runoob.com/java/java-tutorial.html">Java 教程</a></li><li><a title="C 教程" href="http://www.runoob.com/c/c-tutorial.html">C 教程</a></li><li><a title="C++ 教程" href="http://www.runoob.com/cplusplus/cpp-tutorial.html">C++ 教程</a></li><li><a title="Perl 教程" href="http://www.runoob.com/perl/perl-tutorial.html">Perl 教程</a></li><li><a title="Servlet 教程" href="http://www.runoob.com/servlet/servlet-tutorial.html">Servlet 教程</a></li><li><a title="JSP 教程" href="http://www.runoob.com/jsp/jsp-tutorial.html">JSP 教程</a></li><li><a title="Lua 教程" href="http://www.runoob.com/lua/lua-tutorial.html">Lua 教程</a></li><li><a title="Scala 教程" href="http://www.runoob.com/scala/scala-tutorial.html">Scala 教程</a></li><li><a title="Go 教程" href="http://www.runoob.com/go/go-tutorial.html">Go 教程</a></li><li><a title="设计模式" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a></li><li><a title="正则表达式" href="http://www.runoob.com/regexp/regexp-tutorial.html">正则表达式</a></li><li><a title="ASP 教程" href="http://www.runoob.com/asp/asp-tutorial.html">ASP 教程</a></li><li><a title="AppML 教程" href="http://www.runoob.com/appml/appml-tutorial.html">AppML 教程</a></li><li><a title="VBScript 教程" href="http://www.runoob.com/vbscript/vbscript-tutorial.html">VBScript 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">数据库</a><ul><li><a title="SQL 教程" href="http://www.runoob.com/sql/sql-tutorial.html">SQL 教程</a></li><li><a title="Mysql 教程" href="http://www.runoob.com/mysql/mysql-tutorial.html">Mysql 教程</a></li><li><a title="SQLite 教程" href="http://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程</a></li><li><a title="MongoDB 教程" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">MongoDB 教程</a></li><li><a title="Redis 教程" href="http://www.runoob.com/redis/redis-tutorial.html">Redis 教程</a></li><li><a title="Memcached 教程" href="http://www.runoob.com/Memcached/Memcached-tutorial.html">Memcached 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">移动端</a><ul><li><a title="Android 教程" href="http://www.runoob.com/w3cnote/android-tutorial-intro.html">Android 教程</a></li><li><a title="Swift 教程" href="http://www.runoob.com/swift/swift-tutorial.html">Swift 教程</a></li><li><a title="jQuery Mobile 教程" href="http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html">jQuery Mobile 教程</a></li><li><a title="ionic 教程" href="http://www.runoob.com/ionic/ionic-tutorial.html">ionic 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">XML 教程</a><ul><li><a title="XML 教程" href="http://www.runoob.com/xml/xml-tutorial.html">XML 教程</a></li><li><a title="DTD 教程" href="http://www.runoob.com/dtd/dtd-tutorial.html">DTD 教程</a></li><li><a title="XML DOM 教程" href="http://www.runoob.com/dom/dom-tutorial.html">XML DOM 教程</a></li><li><a title="XSLT 教程" href="http://www.runoob.com/xsl/xsl-tutorial.html">XSLT 教程</a></li><li><a title="XPath 教程" href="http://www.runoob.com/xpath/xpath-tutorial.html">XPath 教程</a></li><li><a title="XQuery 教程" href="http://www.runoob.com/xquery/xquery-tutorial.html">XQuery 教程</a></li><li><a title="XLink 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XLink 教程</a></li><li><a title="XPointer 教程" href="http://www.runoob.com/xlink/xlink-tutorial.html">XPointer 教程</a></li><li><a title="XML Schema 教程" href="http://www.runoob.com/schema/schema-tutorial.html">XML Schema 教程</a></li><li><a title="XSL-FO 教程" href="http://www.runoob.com/xslfo/xslfo-tutorial.html">XSL-FO 教程</a></li><li><a title="SVG 教程" href="http://www.runoob.com/svg/svg-tutorial.html">SVG 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">ASP.NET</a><ul><li><a title="ASP.NET 教程" href="http://www.runoob.com/aspnet/aspnet-tutorial.html">ASP.NET 教程</a></li><li><a title="C# 教程" href="http://www.runoob.com/csharp/csharp-tutorial.html">C# 教程</a></li><li><a title="Web Pages 教程" href="http://www.runoob.com/aspnet/webpages-intro.html">Web Pages 教程</a></li><li><a title="Razor 教程" href="http://www.runoob.com/aspnet/razor-intro.html">Razor 教程</a></li><li><a title="MVC 教程" href="http://www.runoob.com/aspnet/mvc-intro.html">MVC 教程</a></li><li><a title="Web Forms 教程" href="http://www.runoob.com/aspnet/aspnet-intro.html">Web Forms 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">Web Services</a><ul><li><a title="Web Services 教程" href="http://www.runoob.com/webservices/webservices-tutorial.html">Web Services 教程</a></li><li><a title="WSDL 教程" href="http://www.runoob.com/wsdl/wsdl-tutorial.html">WSDL 教程</a></li><li><a title="SOAP 教程" href="http://www.runoob.com/soap/soap-tutorial.html">SOAP 教程</a></li><li><a title="RSS 教程" href="http://www.runoob.com/rss/rss-tutorial.html">RSS 教程</a></li><li><a title="RDF 教程" href="http://www.runoob.com/rdf/rdf-tutorial.html">RDF 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">开发工具</a><ul><li><a title="Eclipse 教程" href="http://www.runoob.com/eclipse/eclipse-tutorial.html">Eclipse 教程</a></li><li><a title="Git 教程" href="http://www.runoob.com/git/git-tutorial.html">Git 教程</a></li><li><a title="Firebug 教程" href="http://www.runoob.com/firebug/firebug-tutorial.html">Firebug 教程</a></li></ul></li><li><a href="javascript:void(0);" class="tit">网站建设</a><ul><li><a title="HTTP 教程" href="http://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></li><li><a title="网站建设指南" href="http://www.runoob.com/web/web-buildingprimer.html">网站建设指南</a></li><li><a title="浏览器信息" href="http://www.runoob.com/browsers/browser-information.html">浏览器信息</a></li><li><a title="网站主机教程" href="http://www.runoob.com/hosting/hosting-tutorial.html">网站主机教程</a></li><li><a title="TCP/IP 教程" href="http://www.runoob.com/tcpip/tcpip-tutorial.html">TCP/IP 教程</a></li><li><a title="W3C 教程" href="http://www.runoob.com/w3c/w3c-tutorial.html">W3C 教程</a></li><li><a title="网站品质" href="http://www.runoob.com/quality/quality-tutorial.html">网站品质</a></li></ul></li></ul>			</div>
+	
+	</div>
+	
+	<br>
+	
+	<div class="sidebar-box ad-box ad-box-large">
+		<div class="sidebar-box advertise-here">
+			<a href="javascript:void(0);">Advertisement</a>
+		</div>
+		<div class="ad-600160">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- 侧栏1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:160px;height:600px"
+			 data-ad-client="ca-pub-5751451760833794"
+			 data-ad-slot="4106274865"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<!-- 底部 -->
+
+
+<div id="footer" class="mar-t50">
+   <div class="w3cschoolcc-block">
+    <div class="w3cschoolcc cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd> 
+      <dd>
+       &middot; <a href="/tags/ref-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       &middot; <a href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a href="/jsontool">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-now.html" title="jQuery.now() 方法">jQuery.now() 方法</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-noop.html" title="jQuery.noop()  方法">jQuery.noop()  ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-merge.html" title="jQuery.merge()  方法">jQuery.merge() ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-map.html" title="jQuery.map()   方法">jQuery.map()   ...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-makearray.html" title="jQuery.makeArray()  方法">jQuery.makeArra...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-isxmldoc.html" title="jQuery.isXMLDoc()  方法">jQuery.isXMLDoc...</a>
+      </dd>
+              <dd>
+       &middot;
+      <a href="http://www.runoob.com/jquery/misc-iswindow.html" title="jQuery.isWindow()  方法">jQuery.isWindow...</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       &middot;
+      <a href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       &middot;
+      <a href="/archives">文章归档</a>
+      </dd>
+      
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="150" height="150" src="http://www.runoob.com/wp-content/themes/w3cschool.cc/assets/img/qrcode.jpg" />
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2016    <strong><a href="http://www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="http://www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top" href="javascript:void(0)" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode"  href="javascript:void(0)" title="关注我们"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" style="font-size: 12px;" title="Bug 反馈">反馈</a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade in">
+      <h4>微信关注</h4>
+      <div class="panel-body"><img alt="微信关注" width="128" height="128" src="http://www.runoob.com/wp-content/themes/runoob/assets/img/qrcode.jpg"></div>
+    </div>
+  </div>
+<div style="display:none;">
+  <script src="http://s11.cnzz.com/stat.php?id=5578006&web_id=5578006" language="JavaScript"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?8e2a116daf0104a78d601f40a45c75b4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</div>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/main.js?v=1.02"></script>
+<script src="http://www.runoob.com/wp-content/themes/runoob/assets/js/hl/run_prettify.js?v=1.02"></script>
+</body>
+</html>
