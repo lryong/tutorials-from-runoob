@@ -1,4 +1,31 @@
-### Tutorial from http://www.runoob.com
+TutorialsFromRunoob
+===================
 
-- I wrote a small program with python.These tutorials are download from *http://www.runoob.com*.These tutorials are very suitable for me and beginners.this small python program maybe not very okay,so welcome everybody give me guilding opinions.
-- Without the css, there would be no color and a much looser, less organized page layout.You can enter *http://www.runoob.com* firstly,and then it will better.I will try to fix the bug.
+这是一个网络爬虫项目，功能是从[菜鸟教程](http://www.runoob.com**)下载并分类的所有教程。官网上的教程暂不支持自动翻页(自己比较懒 = =),还有自己刚开始学习python，所有就写了这个爬虫。
+
+## 特性 ##
+
+1. 适合初学者，支持离线学习
+2. 教程内容支持流式阅读
+3. 爬虫项目，适合python初学者实战练手;通过这个项目,可以了解
+
+   - 爬虫原理，Lxml库与Xpaht语法
+   - 对压缩网网页的解压
+   - python对文件的读写操作
+
+## 安装及快速开始 ##
+
+``` shell
+git clone git@github.com/lryong/tutorials-from-runoob
+cd tutorials-from-runoob
+pip install -r requirements.txt
+python download_tutorials.py // 会在当前目录下载教程
+```
+
+## TODO ##
+
+- [x] 下载的内容没有排版,添加css样式
+- [ ] 支持html转换成pdf格式
+
+## FAQ ##
+
