@@ -44,11 +44,15 @@ def gettutorial(title,url):
 		item = 'http://www.runoob.com' + item
 		print '[**]\t' + item
 		data = getcontent(item)
+		
+		# replace js/css/images
 		if num == 0:
 			for tmp in data.readlines()[:-1]:
+				tmp = tmp.replace('/wp-content/themes/runoob/','./runoob/').replace('//cdn.bootcss.com/font-awesome/4.7.0/','./runoob/').replace('//cdn.bootcss.com/jquery/2.0.3','./runoob/')
 				file.write(tmp)
 		else:
 			for tmp in data.readlines()[24:-1]:
+				tmp = tmp.replace('/wp-content/themes/runoob/','./runoob/').replace('//cdn.bootcss.com/font-awesome/4.7.0/','./runoob/').replace('//cdn.bootcss.com/jquery/2.0.3','./runoob/')
 				file.write(tmp)
 		num +=1
 	file.write('</html>')
