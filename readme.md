@@ -19,7 +19,7 @@ TutorialsFromRunoob
 git clone https://github.com/lryong/tutorials-from-runoob
 cd tutorials-from-runoob
 pip install -r requirements.txt
-python download_tutorials.py // 会在当前目录下载教程
+python download_tutorials.py // 会在当前目录下载教程,css样式文件在Runoob教程/runoob目录
 ```
 
 ## TODO ##
