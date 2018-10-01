@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/usr/bin/python
 #encoding:utf-8
 
 # import os
@@ -12,15 +12,18 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def getcontent(url): #处理压缩网页,返回页面内容
-	mainpage = urllib2.urlopen(url)
-	type = mainpage.info().get('Content-Encoding')
-	if type == 'gzip':
-		mainpage = urllib2.urlopen(url)
-		tmp = StringIO.StringIO(mainpage.read())
-		data = gzip.GzipFile(fileobj=tmp)
-	else:
-		data = mainpage
-	return data
+    if not url.startswith("http:"):
+        url = "http:"+url
+
+    mainpage = urllib2.urlopen(url)
+    type = mainpage.info().get('Content-Encoding')
+    if type == 'gzip':
+        mainpage = urllib2.urlopen(url)
+        tmp = StringIO.StringIO(mainpage.read())
+        data = gzip.GzipFile(fileobj=tmp)
+    else:
+        data = mainpage
+    return data
 
 def gettutorial(title,url):
 	print '[**]' + url
@@ -38,7 +41,7 @@ def gettutorial(title,url):
 			item = '/' + pre + '/' + item
 		else:
 			continue
-		item = 'http://www.runoob.com' + item 
+		item = 'http://www.runoob.com' + item
 		print '[**]\t' + item
 		data = getcontent(item)
 		if num == 0:
@@ -50,14 +53,14 @@ def gettutorial(title,url):
 		num +=1
 	file.write('</html>')
 	file.close()
-	
+
 data = getcontent('http://www.runoob.com')
 html = etree.HTML(data.read())
 theme = html.xpath('/html/body/div[4]/div/div[2]//a')
 num = 0
-for a in theme:  
+for a in theme:
 	title = theme[num].xpath('./h4/text()')[0].strip()
-	title = re.sub('/','-',title) 
+	title = re.sub('/','-',title)
 	suburl = theme[num].xpath('./@href')[0].strip()
 	suburl = str(suburl)
 	gettutorial(title,suburl)
