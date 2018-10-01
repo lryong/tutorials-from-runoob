@@ -16,7 +16,7 @@ TutorialsFromRunoob
 ## 安装及快速开始 ##
 
 ``` shell
-git clone git@github.com/lryong/tutorials-from-runoob
+git clone https://github.com/lryong/tutorials-from-runoob
 cd tutorials-from-runoob
 pip install -r requirements.txt
 python download_tutorials.py // 会在当前目录下载教程
