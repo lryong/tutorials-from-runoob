@@ -25,7 +25,8 @@ python download_tutorials.py // 会在当前目录下载教程,css样式文件�
 ## TODO ##
 
 - [x] 下载的教程内容添加css样式
-- [ ] 支持html转换成pdf格式
+- [x] 支持html转换成pdf格式
+- [ ] 教程内容一些链接访问出错
 
 ## FAQ ##
 
