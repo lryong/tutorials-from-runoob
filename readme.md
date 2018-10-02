@@ -1,7 +1,7 @@
 TutorialsFromRunoob
 ===================
 
-这是一个网络爬虫项目，功能是从[菜鸟教程](http://www.runoob.com**)下载并分类的所有教程。官网上的教程暂不支持自动翻页(自己比较懒 = =), 还有自己刚开始学习python，所有就写了这个爬虫。
+这是一个网络爬虫项目，功能是从[菜鸟教程](http://www.runoob.com)下载并分类的所有教程。官网上的教程暂不支持自动翻页(自己比较懒 = =), 还有自己刚开始学习python，所有就写了这个爬虫。
 
 ## 特性 ##
 
@@ -16,15 +16,15 @@ TutorialsFromRunoob
 ## 安装及快速开始 ##
 
 ``` shell
-git clone git@github.com/lryong/tutorials-from-runoob
+git clone https://github.com/lryong/tutorials-from-runoob
 cd tutorials-from-runoob
 pip install -r requirements.txt
-python download_tutorials.py // 会在当前目录下载教程
+python download_tutorials.py // 会在当前目录下载教程,css样式文件在Runoob教程/runoob目录
 ```
 
 ## TODO ##
 
-- [x] 下载的内容没有排版,添加css样式
+- [x] 下载的教程内容添加css样式
 - [ ] 支持html转换成pdf格式
 
 ## FAQ ##
