@@ -44,7 +44,7 @@ def gettutorial(title,url):
 		item = 'http://www.runoob.com' + item
 		print '[**]\t' + item
 		data = getcontent(item)
-		
+
 		# replace js/css/images
 		if num == 0:
 			for tmp in data.readlines()[:-1]:
