@@ -4,7 +4,7 @@ configparser==3.5.0
 enum34==1.1.6
 flake8==3.5.0
 jedi==0.12.1
-lxml==4.6.5
+lxml==4.9.1
 mccabe==0.6.1
 parso==0.3.1
 pdfkit==0.6.1
